@@ -252,6 +252,14 @@ span.psw {
   *float: left;
 
  }
+ /*for action buttons*/
+ #complete-order {
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 150px;
+}
  /* Change styles on extra small screens */
 /* @media screen and (max-width: 600px) {
   span.psw {
