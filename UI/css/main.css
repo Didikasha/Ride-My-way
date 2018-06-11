@@ -156,7 +156,7 @@ h1,h2,h3,h4,h5,h6,span {
     border-radius: 6px;
   }
 
-  input[type=text], input[type=password], textarea,select{
+  input[type=text], input[type=password],select{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -171,6 +171,31 @@ span.psw {
   float: right;
   padding-top: 16px;
 }
+
+/*Driver registration form*/
+.drivreg-intro-header {
+  width:400px;
+  margin: auto;
+  padding: 20px;
+  margin-top:15px;
+  margin-bottom: 15px;
+  background-color: rgb(115, 155, 7);
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border-radius: 6px;
+}
+
+/*Passenger registration form*/
+.passreg-intro-header {
+  width:400px;
+  margin: auto;
+  padding: 20px;
+  margin-top:15px;
+  background-color: rgb(115, 155, 7);
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border-radius: 6px;
+}
+
+
 
 
 
