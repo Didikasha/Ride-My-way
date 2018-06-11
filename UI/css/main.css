@@ -261,23 +261,7 @@ span.psw {
   width: 150px;
 }
  /* Change styles on extra small screens */
-/* @media screen and (max-width: 600px) {
-  span.psw {
-      display: block;
-      float: none;
-  }
-  input[type=text], input[type=password] {
-    width: 80%;
-    display: block;
-  }
-  .login-intro-header {
-    width: 200px;
-  }
-  .container .button {
-    width: 50%;
-    font-size:12px;
-  }
-}*/
+
 
 
   /*footer section*/
