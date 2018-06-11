@@ -195,6 +195,18 @@ span.psw {
   border-radius: 6px;
 }
 
+@media screen and (max-width: 600px) {
+  .passreg-intro-header, .drivreg-intro-header {
+   width: 200px;
+  }
+  input[type=text], input[type=password] {
+     width: 80%;
+     display: block;
+   }
+
+}
+
+
 #Ride-history-table {
   width:90%;
   margin: auto;
@@ -223,15 +235,15 @@ span.psw {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: rgb(115, 155, 7);
+    background-color: rgb#13336a6b;
     color: rgb(200, 190, 47);
 }
 #today-header {
   width:200px;
   margin: auto;
   display: block;
-  background-color: rgb(115, 155, 7);
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  background-color: rgb#012004;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0,0,0,0.22);
   border-radius: 6px;
   overflow: hidden;
   text-align: center;
@@ -240,6 +252,24 @@ span.psw {
   *float: left;
 
  }
+ /* Change styles on extra small screens */
+/* @media screen and (max-width: 600px) {
+  span.psw {
+      display: block;
+      float: none;
+  }
+  input[type=text], input[type=password] {
+    width: 80%;
+    display: block;
+  }
+  .login-intro-header {
+    width: 200px;
+  }
+  .container .button {
+    width: 50%;
+    font-size:12px;
+  }
+}*/
 
 
   /*footer section*/
