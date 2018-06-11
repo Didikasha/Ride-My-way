@@ -223,10 +223,23 @@ span.psw {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #133327;
+    background-color: rgb(115, 155, 7);
     color: rgb(200, 190, 47);
 }
+#today-header {
+  width:200px;
+  margin: auto;
+  display: block;
+  background-color: rgb(115, 155, 7);
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border-radius: 6px;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  *float: left;
 
+ }
 
 
   /*footer section*/
