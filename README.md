@@ -24,7 +24,7 @@ Users Can View
 https://didikasha.github.io/Ride-My-way/UI/index.html
 
 # Screenshots to featured page
-![] (screenshot1.JPG)
+![alt text] (https://github.com/Didikasha/Ride-My-way/blob/feature/UI/img/screenshot1.JPG)
 ![] (screenshot2.JPG)
 ![] (screenshot3.JPG)
 
