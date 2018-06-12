@@ -20,9 +20,10 @@ Users Can View
 2. Css
 
 # Link to github Pages
+* [Github Pages Link]
+https://didikasha.github.io/Ride-My-way/UI/index.html
 
 # Screenshots to featured page
-
 ![] (screenshot1.JPG)
 ![] (screenshot2.JPG)
 ![] (screenshot3.JPG)
