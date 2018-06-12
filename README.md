@@ -13,3 +13,8 @@ Users Can View
 7. page to either accept or reject a ride request
 8. page to accept and view ride requests
 9. Page to view ride requests
+
+# Technologies Used
+
+1. Html
+2. Css
