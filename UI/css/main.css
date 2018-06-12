@@ -1,0 +1,346 @@
+/*styling for the whole website*/
+
+body {
+  margin: 0;
+  font-family: Helvetica
+}
+
+body, html {
+  height: 100%
+}
+
+h1, h2, h3, h4, h5, h6, span {
+  font-family: Helvetica;
+  font-weight: 700;
+}
+
+/*Navigation bar styling*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #012004;
+  border-bottom: 2px solid #012004;
+}
+
+/*Navigation bar links styling*/
+
+.topnav a {
+  float: left;
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a.menu-item {
+  float: right;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #5c6605;
+}
+
+.active {
+  background-color: orange;
+  color: yellow;
+  font-weight: 900;
+  font-size: 120%;
+}
+
+/*Index/home page styling*/
+
+.intro-header {
+  width: 100%;
+  height: 400px;
+  padding-top: 0px;
+  text-align: center;
+  background: url("../img/taxi.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-height: 400px) {
+  .intro-header {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*Styling for buttons*/
+
+.button {
+  display: block;
+  border-radius: 6px;
+  background-color: #012004;
+  border: none;
+  color: yellow;
+  text-align: center;
+  font-size: 20px;
+  padding: 16px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*Media queries for index page buttons*/
+
+@media screen and (max-width:400px) {
+  .button {
+    font-size: 10px;
+    padding: 6px;
+    width: 50%;
+  }
+}
+
+/*Login Forms*/
+
+.login-intro-header {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgb(115, 155, 7);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 6px;
+}
+
+input[type=text], input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+/*"Forgot password" text*/
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/*Driver registration form*/
+
+.drivreg-intro-header {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(115, 155, 7);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 6px;
+}
+
+/*Passenger registration form*/
+
+.passreg-intro-header {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 15px;
+  background-color: rgb(115, 155, 7);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .passreg-intro-header, .drivreg-intro-header {
+    width: 200px;
+  }
+  input[type=text], input[type=password] {
+    width: 80%;
+    display: block;
+  }
+}
+
+#Ride-history-table {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: 12004;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 6px;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+
+#Ride-history-table td, #Ride-history-table th {
+  border: 0;
+  padding: 8px;
+}
+
+#Ride-history-table tr:nth-child(even) {
+  background-color: #dcebe9;
+}
+
+#Ride-history-table tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+#Ride-history-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb#13336a6b;
+  color: rgb(200, 190, 47);
+}
+
+#today-header {
+  width: 200px;
+  margin: auto;
+  display: block;
+  background-color: rgb#012004;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 6px;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  *float: left;
+}
+
+/*for action buttons*/
+
+#complete-order {
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 150px;
+}
+
+/* Change styles on extra small screens */
+
+/*footer section*/
+
+.footer-section {
+  background-color: #012004;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  position: fixed;
+}
+
+.footer-section .footer-company-motto {
+  color: orange;
+  font-size: 24px;
+  margin: 0;
+}
+
+.footer-section .footer-company-name {
+  color: orange;
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-section .footer-links {
+  list-style: none;
+  color: #ffffff;
+  padding: 35px 0 23px;
+  margin: 0;
+}
+
+.footer-section .footer-links a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+/*Media Query*/
+
+@media (max-width: 600px) {
+  .footer-section {
+    padding: 6px;
+  }
+  .footer-section .footer-company-motto {
+    font-size: 12px;
+  }
+  .footer-section .footer-company-name {
+    font-size: 10px;
+  }
+  .footer-section .footer-links {
+    font-size: 12px;
+    padding: 15px 0 15px;
+  }
+  .footer-section .footer-links a {
+    line-height: 1.8;
+  }
+}
+
+footer {
+  position: static;
+  bottom: 0;
+}
+
+@media (max-height: 300px) {
+  footer {
+    position: static;
+  }
+}
