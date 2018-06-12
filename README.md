@@ -26,8 +26,9 @@ https://didikasha.github.io/Ride-My-way/UI/index.html
 # Screenshots to featured page
 ![alt text](https://github.com/Didikasha/Ride-My-way/blob/feature/UI/img/screenshot1.JPG "home page")
 
-![alt text] (https://github.com/Didikasha/Ride-My-way/blob/feature/UI/img/screenshot2.JPG "home page")
-![alt text] (https://github.com/Didikasha/Ride-My-way/blob/feature/UI/img/screenshot3.JPG "home page")
+![alt text](https://github.com/Didikasha/Ride-My-way/blob/feature/UI/img/screenshot2.JPG "home page")
+
+![alt text](https://github.com/Didikasha/Ride-My-way/blob/feature/UI/img/screenshot3.JPG "home page")
 
 # Project Owners
 
