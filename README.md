@@ -21,6 +21,13 @@ Users Can View
 
 # Link to github Pages
 
+# Screenshots to featured page
+
 ![] (screenshot1.JPG)
 ![] (screenshot2.JPG)
 ![] (screenshot3.JPG)
+
+# Project Owners
+
+Didi Kashemwa
+
